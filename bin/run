@@ -14,6 +14,6 @@ song.save
 
 Song.find_by_name("Hello")	
 
-# DB[:conn].execute("SELECT * FROM songs")
+puts DB[:conn].execute("SELECT * FROM songs")
 
 pry.start
