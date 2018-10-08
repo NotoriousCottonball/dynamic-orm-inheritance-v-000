@@ -13,3 +13,4 @@ song.save
 song2.save
 
 DB[:conn].execute("SELECT * FROM songs")
+pry.start
