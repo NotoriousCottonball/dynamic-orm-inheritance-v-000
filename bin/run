@@ -11,7 +11,7 @@ song2 = Song.new(name: "Hey", album: "52")
 puts "song name: " + song.name
 puts "song album: " + song.album
 song.save
-song2.save
+
 
 DB[:conn].execute("SELECT * FROM songs")
 pry.start
